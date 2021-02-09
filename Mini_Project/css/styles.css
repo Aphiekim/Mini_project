@@ -480,9 +480,12 @@ mark,
 }
 
 .img-fluid {
-  max-width: 600px;
-  height: 260px;
-  
+  width: 558px;
+  height: auto;
+
+  background-size: cover;
+  background-position: center;
+   
 }
 
 .img-thumbnail {
@@ -2423,7 +2426,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #491217;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2444,7 +2447,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #721c24;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -10213,7 +10216,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-main.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 95%, #000000 100%), url("../assets/img/bg-main.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10224,7 +10227,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
